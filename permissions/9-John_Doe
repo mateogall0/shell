@@ -1,6 +1,2 @@
 #!/bin/bash
-<<<<<<< HEAD
 chmod 753 hello
-=======
-chmod +rwxu hello
->>>>>>> c7f38f7c54d3dd75de91b307c92ecb6cd22cba7d
