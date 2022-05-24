@@ -1,2 +1,2 @@
 #!/bin/bash
-sort -m list_1
+sort --merge list_1
