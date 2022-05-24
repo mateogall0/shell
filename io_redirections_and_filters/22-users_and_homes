@@ -1,2 +1,2 @@
 #!/bin/bash
-perl -pe 's/\n/ : / if $.%2'
+cut -d : -f 1,6 /etc/passwd
