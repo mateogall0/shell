@@ -1,2 +1,2 @@
 #!/bin/bash
-find . -type d ! -ptch . -print | wc -l
+find -l -type d | wc -l
