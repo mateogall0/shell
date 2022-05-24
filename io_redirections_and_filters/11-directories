@@ -1,2 +1,2 @@
 #!/bin/bash
-find -type d -P | wc -l
+find . -type d ! -path . -print |wc -l
