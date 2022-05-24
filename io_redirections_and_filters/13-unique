@@ -1,2 +1,2 @@
 #!/bin/bash
-sort -ou list_1
+grep list_1
