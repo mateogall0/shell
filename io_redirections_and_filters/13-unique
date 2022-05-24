@@ -1,2 +1,2 @@
 #!/bin/bash
-grep list_1
+sort list_1 |uniq -c | grep 1
