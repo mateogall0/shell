@@ -1,2 +1,2 @@
 #!/bin/bash
-head -11 | tr -s " " | cut -f1 -d " "
+wc -l | sort -n | head -n 11
