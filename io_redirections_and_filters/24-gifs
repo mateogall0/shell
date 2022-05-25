@@ -1,2 +1,2 @@
 #!/bin/bash
-find . -name "*.gif" -ls -printf "%f\n" | cut -f1 -d '.' | sort
+find . -name type f "*.gif" -printf "%f\n" | cut -f1 -d '.' | sort
