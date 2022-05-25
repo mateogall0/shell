@@ -1,2 +1,2 @@
 #!/bin/bash
-find . -iname "*.gif" -printf "%f\n" | sort | uniq -c
+find . -iname "*.gif" -printf -exec "%f\n" | sort | uniq -c
