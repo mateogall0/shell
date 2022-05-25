@@ -1,2 +1,2 @@
 #!/bin/bash
-wc -l | sort -n | head -n 11
+cut -d -f1 ' '
