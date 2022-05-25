@@ -1,2 +1,2 @@
 #!/bin/bash
-find . -name "*.gif" -printf "%p\n" | sort
+find . -name "*.gif" -prune -printf "%f\n" | sort
