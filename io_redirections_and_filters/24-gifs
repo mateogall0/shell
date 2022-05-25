@@ -1,2 +1,2 @@
 #!/bin/bash
-find . -iname "*.gif" -printf "%f\n" tail -n +4 | tac | sort
+find . -iname "*.gif" -printf "%f\n" | tail -n +4 | tac | sort
