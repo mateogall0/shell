@@ -1,2 +1,2 @@
 #!/bin/bash
-head -n 11 | tr -s " " | cut -f1 -d " "
+tr -s " " | cut -f1 -d " " | head -11
