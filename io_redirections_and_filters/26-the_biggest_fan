@@ -1,2 +1,2 @@
 #!/bin/bash
-hostname -I
+head -n 11 nasa | tr -s " " | cut -d ' ' -f1 
