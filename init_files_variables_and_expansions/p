@@ -1,0 +1,5 @@
+#!/bin/bash
+git add .
+read -p "Introduzca mensaje: " msj
+git commit -m "$msj"
+git push
