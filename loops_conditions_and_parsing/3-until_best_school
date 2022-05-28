@@ -1,0 +1,8 @@
+#!/usr/bin/env bash
+#comment
+c=0
+until [ 10 -lt $c ];
+do
+	echo Best School
+	let c=$c+1
+done
