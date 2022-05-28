@@ -1,4 +1,4 @@
-#!/bin/bash
+#!/bin/bash/env
 #comment
 for i in {1..10}
 do
