@@ -7,7 +7,6 @@ do
 	if [$c -eq 2];
 	then
 		echo Hi
-	else
 	fi
 	c=$((c-1))
 done
