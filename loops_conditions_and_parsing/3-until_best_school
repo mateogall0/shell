@@ -4,5 +4,5 @@ c=1
 until [ 10 -lt $c ];
 do
 	echo Best School
-	let c=$c+1
+	c=$((c+1))
 done
