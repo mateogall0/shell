@@ -6,7 +6,7 @@ do
 	if [[ $c -eq 3 ]]
 	then
 		echo good luck
-	elif [[ $c -eq 5 ]]
+	elif [[ $c -eq 7 ]]
 	then
 		echo bad luck
 	else
