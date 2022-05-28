@@ -1,6 +1,6 @@
 #!/usr/bin/env bash
 #comment
-c=0
+c=1
 until [ 10 -lt $c ];
 do
 	echo Best School
