@@ -1,11 +1,12 @@
 #!/usr/bin/env bash
+#comment
 c=10
 while [ $c -gt 0 ];
 do
 	if [[ $c -eq 2 ]]
 	then
 		echo good luck
-	elif [[ $ -eq 6 ]]
+	elif [[ $c -eq 6 ]]
 	then
 		echo bad luck
 	else
