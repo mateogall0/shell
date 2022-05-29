@@ -1,4 +1,5 @@
 #!/usr/bin/env bash
+#comment
 c=1
 while [$c -lt 20]
 do
@@ -12,6 +13,7 @@ do
 	elif [[$c -eq 17]]
 	then
 		echo bad luck from Italy	
+	fi
 	c=$(($c+1))	
 	
 done
