@@ -3,7 +3,7 @@
 c=1
 while [ $c -lt 21 ];
 do
-	echo '$c'
+	echo $c
 	
 	case $c in
 		4)
