@@ -4,16 +4,21 @@ c=1
 while [$c -lt 20]
 do
 	echo $c
-	if [[$c -eq 4]]
-	then
-		echo bad lucj from China
-	elif [[$c -eq 9]]
-	then
-		echo bad luck from Japan
-	elif [[$c -eq 17]]
-	then
-		echo bad luck from Italy	
-	fi
+	
+	case $c in
+		4)
+			echo bad luck from China
+		;;
+		9)
+			echo bad luick from Japan
+		;;
+		17)
+			echo bad luck from Italy
+		;;
+	esac
+	
+
+
 	c=$(($c+1))	
 	
 done
