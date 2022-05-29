@@ -3,17 +3,17 @@
 c=1
 while [ $c -lt 21 ];
 do
-	echo $c
+	echo '$c'
 	
 	case $c in
 		4)
-			echo bad luck from China
+			echo 'bad luck from China'
 		;;
 		9)
-			echo bad luick from Japan
+			echo 'bad luck from Japan'
 		;;
 		17)
-			echo bad luck from Italy
+			echo 'bad luck from Italy'
 		;;
 	esac
 	
