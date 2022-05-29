@@ -1,0 +1,17 @@
+#!/usr/bin/env bash
+c=1
+while [$c -lt 20]
+do
+	echo $c
+	if [[$c -eq 4]]
+	then
+		echo bad lucj from China
+	elif [[$c -eq 9]]
+	then
+		echo bad luck from Japan
+	elif [[$c -eq 17]]
+	then
+		echo bad luck from Italy	
+	c=$(($c+1))	
+	
+done
