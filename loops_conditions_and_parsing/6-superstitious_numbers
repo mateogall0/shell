@@ -1,7 +1,7 @@
 #!/usr/bin/env bash
 #comment
 c=1
-while [$c -lt 20]
+while [ $c -lt 20 ];
 do
 	echo $c
 	
