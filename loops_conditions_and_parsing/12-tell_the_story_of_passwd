@@ -4,5 +4,5 @@ d="/etc/passwd"
 while IFS= read -r u c IDu IDg IDiu Di CS
 do
 
-	echo "The user $u is part of the $IDg gang, lives in $IDiu and rides $CS. $IDu place is protected by the passcode $c, more info about the user here: $IDiu"
+	echo "The user $u is part of the $IDg gang, lives in $Di and rides $CS. $IDu place is protected by the passcode $c, more info about the user here: $IDiu"
 done < "$d"
