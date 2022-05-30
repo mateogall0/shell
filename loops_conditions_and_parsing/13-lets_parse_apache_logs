@@ -1,4 +1,3 @@
 #!/usr/bin/env bash
 #comment
-ps | awk '{print $1}'
-apache-access.log
+grep -i 200 apache-access.log | awk '{print $1}'
