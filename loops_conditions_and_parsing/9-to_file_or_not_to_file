@@ -6,7 +6,7 @@ then
 	echo school file exists
 	if [[ -s "$s" ]]
 	then
-		echo file is not empty
+		echo school file is empty
 	else
 		echo school file is not empty
 	fi
