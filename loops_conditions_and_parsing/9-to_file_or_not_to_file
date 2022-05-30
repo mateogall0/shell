@@ -8,10 +8,10 @@ then
 	then
 		echo file is not empty
 	else
-		school file is not empty
+		echo school file is not empty
 	fi
 	
-	school school is a regular file
+	echo school is a regular file
 
 else
 	echo school file does not exist
