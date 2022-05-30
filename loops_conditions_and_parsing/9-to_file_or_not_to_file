@@ -1,17 +1,20 @@
 #!/usr/bin/env bash
 #comment
 s="school"
-if [[ -f "$s" ]]
+if [[ -e "$s" ]]
 then
 	echo school file exists
-	if [[ find -s -name "$s" ]]
+	if [[ -s "$s" ]]
 	then
 		echo file is not empty
 	else
 		echo school file is not empty
 	fi
 	
-	echo school is a regular file
+	if [[ -f "$s" ]]
+	then
+		echo school is a regular file
+	fi
 
 else
 	echo school file does not exist
