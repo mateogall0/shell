@@ -3,5 +3,5 @@
 d="/etc/passwd"
 while $IFS read -r line
 do
-	echo $line
-done < $d
+	echo "$line"
+done < "$d"
