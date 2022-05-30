@@ -3,5 +3,5 @@
 d="/etc/passwd"
 while read -r line
 do
-	echo $line | cut -d':' --field=1,2,6
+	echo "$line" | cut -d':' --field=1,2,6
 done < "$d"
