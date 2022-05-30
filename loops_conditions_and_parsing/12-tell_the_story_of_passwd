@@ -1,0 +1,7 @@
+#!/usr/bin/env bash
+#comment
+d="/etc/passwd"
+while IFS=read -r line
+do
+	echo "$USERNAME" $(line 0)
+done < $d
