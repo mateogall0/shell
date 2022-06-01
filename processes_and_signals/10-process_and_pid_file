@@ -10,3 +10,4 @@ do
 	sleep 2
 done
 trap "rm /var/run/myscript.pid" 3 -o 15
+exit 1
