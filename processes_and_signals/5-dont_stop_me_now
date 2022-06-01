@@ -1,3 +1,3 @@
 #!/usr/bin/env bash
 #kill 4
-killall -9 4-to_infinity_and_beyond
+killall /proc 4-to_infinity_and_beyond
