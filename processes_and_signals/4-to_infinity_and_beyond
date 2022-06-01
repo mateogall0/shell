@@ -1,4 +1,5 @@
 #!/usr/bin/env bash
+#This script uses a While structure that is allways true to indefinitely display "To infinity and beyond"
 while true;
 do
 	echo To infinity and beyond
