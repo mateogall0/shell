@@ -1,6 +1,6 @@
 #!/usr/bin/env bash
 #
-case $1 in:
+case $1 in
 	start)
 		sudo -b ./manage_my_process
 		echo $$ > /var/run/my_process.pid
