@@ -12,7 +12,7 @@ case $1 in
 		echo "manage_my_process stopped"
 	;;
 	restart)
-		kill "$(pgrep -f manage_my_process)"
+		pkill -f ./manage_my_process
 	        rm -f /var/run/my_process.pid
 		sudo -b ./manage_my_process
                 echo $$ > /var/run/my_process.pid
